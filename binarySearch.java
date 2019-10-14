@@ -9,7 +9,7 @@ class binarySearch
         int beg,mid,end;
         for(int i=0;i<=4;i++)
         {
-            arr[i]=sc.nextInt();
+            arr[i]=sc.nextInt();  //array input
 
         }
         int k=sc.nextInt();
@@ -17,7 +17,7 @@ class binarySearch
         beg=0;
         end=arr.length-1;
 
-        while(beg<=end)
+        while(beg<=end) //imp part
         {
             mid=(beg+end)/2;
 
