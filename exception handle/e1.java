@@ -1,3 +1,4 @@
+//expection handling basic one
 public class e1
 {
     public static void main(String Args[])
