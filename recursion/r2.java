@@ -19,7 +19,7 @@ class r2
     public static void main(String args[])
     {
         int x;
-        rec1 r=new rec1();
+        rec1 r=new rec1(); //rec1 onj
         x=r.rec(1);
         System.out.println(x);
 
