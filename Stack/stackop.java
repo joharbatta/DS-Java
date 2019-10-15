@@ -1,4 +1,6 @@
-import java.util.*;
+//stack
+
+import java.util.*; 
 class Stack
 {   int arr[],top,capacity;
     Stack(int size)
@@ -21,7 +23,7 @@ class Stack
 class stackop
 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in); //scannner
         Stack s=new Stack(4);
 
         s.push(5);
