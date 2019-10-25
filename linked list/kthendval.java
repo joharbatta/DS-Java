@@ -40,7 +40,7 @@ class kthendval
 
     }
 
-    static void kthfromend(int k,int n)
+    static void kthfromend(int k,int n)  // value of kth node from end function
     {
 
         Node temp=head;
