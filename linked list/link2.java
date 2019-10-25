@@ -147,7 +147,7 @@ class LinkedList
             System.out.println("Inserion not posibile");
         }
     }
-    public void delpos(int index)
+    public void delpos(int index) //delete element at certain position
     {
         if(index==1)
         {
@@ -170,7 +170,7 @@ class LinkedList
         }
     }
 
-    public void search(int data)
+    public void search(int data) //search value
     {
         Node temp=head;
         int c=1;
