@@ -17,7 +17,7 @@ class LinkedList
         head=null;
     }
 
-    public void addB(int data)
+    public void addB(int data) // insert element at beginning
     {
         Node node=new Node();
         if(head==null)
@@ -35,7 +35,7 @@ class LinkedList
         size++;
     }
     
-    public void addL(int data)
+    public void addL(int data)   // insert element at end
     {
 
         Node node=new Node();
