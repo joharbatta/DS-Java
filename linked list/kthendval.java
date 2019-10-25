@@ -3,7 +3,7 @@ class kthendval
 {
 
     static Node head;
-    static class Node
+    static class Node  //node class
     {
         int data;
         Node next;
@@ -18,7 +18,7 @@ class kthendval
 
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in); //scnner
         int n=sc.nextInt();
         head=null;
         if(n>0)
